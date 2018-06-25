@@ -1,0 +1,27 @@
+#tourdates h2 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  #tourdates {
+    /* height: 100%; */
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+  }
+
+  @media screen and (max-width: 768px) {
+  div.bit-widget {
+      font-size: 0.75em;
+  }
+
+  #tourdates {
+    padding: 0;
+  }
+
+    #tourdates .bit-widget {
+    min-width: 310px;
+  }
+
+}

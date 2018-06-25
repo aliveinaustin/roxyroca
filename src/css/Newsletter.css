@@ -1,0 +1,56 @@
+.newsletter{
+	background: #000;
+  color: #fff;
+	clear: both;
+	padding: 10px 10px 5px 10px;
+  text-transform: uppercase;
+}
+
+.newsletter h2{
+  font-size: 1rem;
+}
+
+.newsletter table, .newsletter table input{
+  width: 100%;
+}
+
+.newsletter table input#email{
+  border: none;
+  border-bottom: 3px solid #961a3f;
+  text-align: center;
+  height: 40px;
+  margin: 1rem 0;
+}
+
+.newsletter table input.btn.btn-1.btn-1f:hover {
+  color: #961a3f !important;
+}
+
+.container {
+    width:1300px;
+    max-width:100%;
+    margin:auto;
+    text-align:center;
+}
+
+form {
+    width: 500px;
+    max-width:100%;
+    margin: 20px auto;
+}
+
+.email-wrapper {
+    position: relative;
+}
+
+.form-text {
+    text-transform: uppercase;
+    font-size: 1em;
+    width:100%;
+    /*position: absolute;
+    top:-35px;
+    overflow: hidden;
+    height:30px;*/
+    margin:auto;
+    z-index: 3;
+}

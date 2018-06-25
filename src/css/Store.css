@@ -1,0 +1,9 @@
+body .Store {
+    overflow: hidden;
+}
+
+.Store {
+    /* flex: 1; */
+    flex: 1 0 auto;
+    margin-top: -0.5rem;
+  }

@@ -1,0 +1,81 @@
+.Header .jumbotron {
+  padding: 0;
+  background-color: #000;
+  margin-top: -1rem;
+  }
+
+  #headerBG {
+		position: relative;
+		top: 0;
+		left: 0;
+    margin-top: -1rem;
+  }
+
+	#logo {
+    /* padding: 0 5rem; */
+		position: absolute;
+		top: 3rem;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .arrow-down {
+    position: absolute;
+    top: 85vh;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .arrow-down::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-right: 4px solid #961a3f;
+    border-bottom: 4px solid #961a3f;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-animation: 3s arrow infinite ease;
+    animation: 3s arrow infinite ease;
+  }
+
+  @-webkit-keyframes arrow {
+    0%, 100% {
+      top: 50px;
+    }
+    50% {
+      top: 80px;
+    }
+  }
+
+  @keyframes arrow {
+    0%, 100% {
+      top: 50px;
+    }
+    50% {
+      top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 960px){
+    .arrow-down {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+
+    .Header .jumbotron {
+      /* margin-top: 3rem; */
+    }
+
+    #logo {
+      display: none;
+      }
+    }

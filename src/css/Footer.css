@@ -1,0 +1,48 @@
+#outro{
+    background: url(../assets/footer-img.png) no-repeat center;
+    background-size: cover;
+    bottom: 40px;
+    padding-top: 46.4%;
+    border-bottom: 2px solid #333;
+    margin-top: 75px;
+    /*position: fixed;*/
+    width: 100%;
+
+}
+
+.footerCopyright{
+    /* background-color: #000;
+    clear: both;
+    padding: 10px 0; */
+    /* float: left; */
+    color: #999;
+    font-size: 9px;
+    text-align: right;
+    /* position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+footer{
+  background: #000;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+footer ul#social li{
+    list-style-type: none;
+    /* float: left; */
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+footer ul#social a{
+  color: #999;
+}
+
+footer ul#social a:hover{
+  color:  #961a3f;
+}

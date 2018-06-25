@@ -1,0 +1,79 @@
+
+.streamVendor{
+    margin: 2em 0 0;
+    position: relative;
+   }
+
+   .streamVendor .card{
+    background-color: #000;
+    margin-bottom: .5rem;
+    padding: 0.5rem;
+   }
+
+   .card-title {
+     margin: 0;
+   }
+
+   hr {
+     border-color: #961a3f;
+   }
+
+   .streamVendor .card-body{
+    padding: 0.5rem;
+   }
+
+.AlbumPromo{
+    color: #fff;
+    margin: 2em 0;
+    padding: 1em;
+    position: relative;
+   }
+
+   .AlbumPromo img{
+    max-width: 600px;
+    width: 100%;
+   }
+
+   .AlbumPromo span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+   }
+
+h1, h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+
+  .album-title {
+    color: #961a3f;
+    text-decoration: underline;
+    /*border-bottom: 1px solid #961a3f;*/
+  }
+
+  #info-container .fa {
+    color: #961a3f;
+    padding-right: 5px;
+  }
+
+  .store-btn {
+    background: #1D1D1D;
+  }
+
+  .btn-sm {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .btn-sm i {
+    color: #961a3f;
+    padding-right: 0.25rem;
+  }
+
+  .btn-sm:hover {
+    color: #961a3f;
+  }

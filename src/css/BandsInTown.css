@@ -1,0 +1,190 @@
+/* Bands In Town Widget Buttons */
+.btn, .bit-button {
+    border: none;
+    color: #fff !important;
+    background: none !important;
+    cursor: pointer;
+    padding: 0.5em 2em;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .bit-widget .bit-upcoming-events-show-all-button, .bit-past-events-show-all-button{
+    border: 3px solid #961A3F !important;
+    color: #961A3F !important;
+    background: none !important;
+    cursor: pointer;
+    padding: 0.5em 2em;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0px 3% 0px 3% !important;
+    width: 94% !important;
+  }
+
+  .btn:after, .bit-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .btn-1, .bit-button {
+    border: 3px solid #961A3F;
+  }
+
+  .btn-1f, .bit-button {
+    overflow: hidden;
+  }
+
+  .btn-1f:after, .bit-button:after, .bit-upcoming-events-show-all-button:after {
+    width: 101%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background-color: #961A3F;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .btn-1f:hover,
+  .btn-1f:active,
+  .bit-button:active,
+  .bit-button:hover,
+  .bit-upcoming-events-show-all-button:hover,
+  .bit-upcoming-events-show-all-button:active {
+    color: white !important;
+  }
+
+  .btn-1f:hover:after, .bit-button:hover:after, .bit-upcoming-events-show-all-button:after  {
+    height: 75%;
+    opacity: 1;
+  }
+
+  .btn-1f:active:after, .bit-button:active:after, .bit-upcoming-events-show-all-button:after  {
+    height: 130%;
+    opacity: 1;
+  }
+
+  .bit-widget-container {
+    margin: auto;
+  }
+
+  .bit-widget-container .bit-event {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 !important;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 38.75em) {
+    .bit-widget-container .bit-event {
+      border-top: none !important;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+  }
+
+  .bit-widget-container .bit-nav-bar-container {
+    display: none;
+  }
+
+  .bit-widget-container .bit-widget {
+    background: none;
+  }
+
+  @media (min-width: 38.75em) {
+    .bit-widget-container .bit-upcoming-events {
+      border-bottom: none !important;
+    }
+  }
+
+  .bit-widget .bit-event .bit-rsvp-container {
+    padding: 0 15px 0 0 !important;
+  }
+.bit-widget .bit-event {
+  border-bottom: 1px solid rgba(124, 124, 124, 0.25) !important;
+}
+
+  .bit-widget-container .bit-details {
+    color: white;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    /* justify-content: space-around !important; */
+    flex-direction: row !important;
+    /* flex: 0 0 100%; */
+  }
+
+  .bit-widget .bit-event .bit-event-buttons {
+    flex-direction: row !important;
+    justify-content: space-around;
+  }
+
+  .bit-widget-container .bit-details .bit-date, .bit-widget-container .bit-details .bit-venue, .bit-widget-container .bit-details .bit-location {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .5em;
+  }
+
+  @media (min-width: 45em) {
+    .bit-widget-container .bit-details .bit-date, .bit-widget-container .bit-details .bit-venue, .bit-widget-container .bit-details .bit-location {
+      padding: 1.25em 2em;
+    }
+  }
+
+  @media (min-width: 45em) {
+    .bit-widget-container .bit-details .bit-venue {
+      /* border-left: 2px solid #961A3F;
+      border-right: 2px solid #961A3F; */
+    }
+  }
+
+  @media (min-width: 45em) {
+    .bit-widget-container .bit-details .bit-location {
+      width: 34% !important;
+    }
+  }
+
+  @media (min-width: 45em) {
+    .bit-widget-container .bit-details .bit-venue {
+      width: 50% !important;
+    }
+  }
+
+  @media (min-width: 45em) {
+    .bit-widget-container .bit-details .bit-date {
+      padding: 1.25em 0.5em 1.25em 0;
+    }
+  }
+
+  @media (max-width: 45em) {
+    .bit-widget .bit-event {
+      flex-wrap: wrap;
+      padding: 0 0 .5rem 0 !important;
+      border-bottom: 1px solid rgba(124,124,124,0.25) !important;
+    }
+
+    .bit-widget-container .bit-details {
+    flex: 0 0 100%;
+    font-size: 1.2em;
+    }
+  }

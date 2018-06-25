@@ -1,0 +1,70 @@
+.HeaderNav nav{
+    background: #000;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, transparent 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, transparent 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 90%, transparent 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db000000', endColorstr='#00000000',GradientType=0 );
+    /* position: relative; */
+}
+
+.HeaderNav {
+    flex: 1;
+  }
+
+#logoNav {
+    display: none;
+  }
+
+.social-nav {
+    flex-direction: row;
+}
+
+.navbar{
+    background: #000;
+   }
+   button:focus {
+       outline: none;
+   }
+   .nav-link , .navbar-brand{
+    color: #999;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #999;
+    color: #961a3f;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background: transparent !important;
+   }
+
+   .navbar-toggler-icon{
+    background: url(../assets/burger.png) no-repeat 98% center;
+    cursor: pointer;
+}
+
+.activeNav {
+  color: #961a3f !important;
+  /* background-color: #e7e7e7 !important; */
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px){
+
+    #logoNav {
+      display: inline-block;
+      max-width: 55%;
+      margin-left: 1rem;
+      }
+    }
